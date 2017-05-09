@@ -1,9 +1,7 @@
 var gulp = require("gulp");
-var gutil = require('gulp-util');
 var sass = require("gulp-sass");
 var cleanCSS = require('gulp-clean-css');
 var htmlmin = require('gulp-htmlmin');
-var watch = require('gulp-watch');
 
 
 gulp.task('minifica-css', function () {
